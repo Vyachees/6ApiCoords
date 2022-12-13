@@ -42,7 +42,6 @@ public class CoordsController {
 	public ResponseEntity<List<Object[]>> getLatLonByTripNumber(@PathVariable("trip_number") Long tripNumber)
 	{
 		try {
-
 			List<Object[]> coords = new ArrayList<>(coordsRepository.findLatLoneByTripNumber(tripNumber));
 
 			if (coords.isEmpty()) {
