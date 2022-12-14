@@ -1,5 +1,5 @@
 # ApiCoords
-Sixth part of study project. API connecting to DB and return some data
+Sixth part of pet project. API connecting to DB and return some data
 
 http://localhost:8080/api/coords/
 
